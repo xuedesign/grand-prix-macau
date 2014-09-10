@@ -64,7 +64,7 @@ nav{
 	display:block;
 	padding-top:26px}	
 #menu li{display:block}
-.nav_01 a{
+.nav_01 a, .nav_01 a:hover, .nav_01.active{
 	display:block;
 	background:url(../images/btn_flag.png) no-repeat;
 	width:231px;
@@ -83,27 +83,6 @@ nav{
 .nav_04 a:hover, .nav_04.active{ background:url(../images/bg_navlist.png) -160px -198px no-repeat}	
 .nav_05 a{ background:url(../images/bg_navlist.png) 0 -297px no-repeat}
 .nav_05 a:hover, .nav_05.active{ background:url(../images/bg_navlist.png) -160px -297px no-repeat}
-				
-/*#menu li.active{
-	background:#666;
-	background: rgba(0,0,0, 0.5);
-	color: #fff}
-#menu li a{
-	text-decoration:none;
-	color: #000}
-#menu li.active a:hover{
-	color: #000}*/
-
-/*#menu li:hover{
-	background: rgba(255,255,255, 0.8)}
-
-#menu li a, #menu li.active a{
-	display:block}
-
-#menu li.active a{
-	color: #fff}*/
-
-
 
 #section1 img{
 	left: 130%;

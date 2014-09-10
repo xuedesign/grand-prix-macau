@@ -19,11 +19,12 @@ $(function() {
 //選單設定
 $(document).ready(function() {
 	  $('#fullpage').fullpage({
-		  sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+		  //sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
 		  anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 		  menu: '#menu',
 		  afterLoad: function(anchorLink, index){
 
+			  	  
 			  //section 2
 			  if(index == 2){
 				  //moving the image
