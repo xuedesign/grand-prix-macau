@@ -1,0 +1,132 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2014/09
+
+***********************************************************************************************
+		1 通用
+		2.基本結構
+		3.單元結構
+		  3.1 頁首
+		  3.2 賽事介紹 
+		  3.3 旅行社行程
+		  3.4 相關報導
+		  3.5 會員獨家活動 		     		
+***********************************************************************************************/
+
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	background:#fff;
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#2c2c2c}
+a:link {text-decoration:none; color:#2c2c2c}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:underline; color:#ad3713}
+h1{ display:none}
+form{margin:0; padding:0}
+img{border:0}
+.clean{ clear:both}
+.hidden{ display:none} 
+
+
+/* 2. 基本架構
+===============================================================================================*/
+#wrap{
+	display:block;
+	position: relative;
+	width: 100%}
+.section{
+	display:block;
+	width:100%}	
+
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em}
+
+
+/*主選單*/
+nav{
+	display:block;
+	position:fixed;
+	top:8%;
+	left:0;
+	z-index:99;
+	background: url(../images/bg_nav.png) no-repeat;
+	width:231px;
+	height:692px}
+#menu{
+	display:block;
+	padding-top:26px}	
+#menu li{display:block}
+.nav_01 a{
+	display:block;
+	background:url(../images/btn_flag.png) no-repeat;
+	width:231px;
+	height:183px;
+	text-indent:-9999px}
+.nav_02 a, .nav_03 a, .nav_04 a, .nav_05 a{
+	display:block;
+	width:160px;
+	height:99px;
+	text-indent:-9999px}
+.nav_02 a{ background:url(../images/bg_navlist.png) 0 0 no-repeat}
+.nav_02 a:hover, .nav_02.active{ background:url(../images/bg_navlist.png) -160px 0 no-repeat}
+.nav_03 a{ background:url(../images/bg_navlist.png) 0 -99px no-repeat}
+.nav_03 a:hover, .nav_03.active{ background:url(../images/bg_navlist.png) -160px -99px no-repeat}	
+.nav_04 a{ background:url(../images/bg_navlist.png) 0 -198px no-repeat}
+.nav_04 a:hover, .nav_04.active{ background:url(../images/bg_navlist.png) -160px -198px no-repeat}	
+.nav_05 a{ background:url(../images/bg_navlist.png) 0 -297px no-repeat}
+.nav_05 a:hover, .nav_05.active{ background:url(../images/bg_navlist.png) -160px -297px no-repeat}
+				
+/*#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff}
+#menu li a{
+	text-decoration:none;
+	color: #000}
+#menu li.active a:hover{
+	color: #000}*/
+
+/*#menu li:hover{
+	background: rgba(255,255,255, 0.8)}
+
+#menu li a, #menu li.active a{
+	display:block}
+
+#menu li.active a{
+	color: #fff}*/
+
+
+
+#section1 img{
+	left: 130%;
+	position:relative}
+#section1 p{
+	visibility:hidden}
+#section2 .intro{
+	left: -130%;
+	position:relative}
+		
+/* 3. 單元架構
+===============================================================================================*/
+/*3.1 頁首*/
+#banner{ background:url(../images/bg_banner.jpg); background-size:cover}
+
+/*3.2 賽事介紹*/ 
+#about{ background:url(../images/bg_about.jpg); background-size:cover}
+
+/*3.3 旅行社行程*/
+#travel{ background:url(../images/bg_travel.jpg); background-size:cover}
+
+/*3.4 相關報導*/
+#news{ background:url(../images/bg_news.jpg); background-size:cover}
+
+/*3.5 會員獨家活動*/ 
+#event{ background:url(../images/bg_event.jpg); background-size:cover}			
