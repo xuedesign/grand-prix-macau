@@ -48,5 +48,28 @@ $(document).ready(function() {
 		  }
 	  });
 
-  });	  	  
-	    	  
+  });
+  
+//FB分享按鈕
+ (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	
+//圖片輪播效果
+jQuery(function(){
+	
+	jQuery('#camera_wrap_1').camera({
+		thumbnails: true
+	});
+
+	jQuery('#camera_wrap_2').camera({
+		height: '400px',
+		loader: 'bar',
+		pagination: false,
+		thumbnails: true
+	});
+});    	  
