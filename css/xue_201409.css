@@ -42,12 +42,13 @@ img{border:0}
 	width: 100%}
 .section{
 	display:block;
+	position:relative;
 	width:100%}	
 
-.intro p{
+/*.intro p{
 	width: 50%;
 	margin: 0 auto;
-	font-size: 1.5em}
+	font-size: 1.5em}*/
 
 
 /*主選單*/
@@ -84,19 +85,68 @@ nav{
 .nav_05 a{ background:url(../images/bg_navlist.png) 0 -297px no-repeat}
 .nav_05 a:hover, .nav_05.active{ background:url(../images/bg_navlist.png) -160px -297px no-repeat}
 
-#section1 img{
+/*側邊小圓點*/
+.nowin{
+	display:block;
+	position:absolute;
+	top:45%;
+	right:24px;
+	background: url(../images/bg_nowin.png) no-repeat;
+	width:15px;
+	height:98px;
+	text-indent:-9999px}
+.in_01{ background-position: 0 0}
+.in_02{ background-position: -15px 0}
+.in_03{ background-position: -30px 0}
+.in_04{ background-position: -45px 0}
+.in_05{ background-position: -60px 0}
+
+/*#section1 img{
 	left: 130%;
 	position:relative}
 #section1 p{
 	visibility:hidden}
 #section2 .intro{
 	left: -130%;
-	position:relative}
+	position:relative}*/
 		
 /* 3. 單元架構
 ===============================================================================================*/
 /*3.1 頁首*/
 #banner{ background:url(../images/bg_banner.jpg); background-size:cover}
+#banner h2, #banner h3, #banner h4, #banner p{
+	display:block;
+	position:absolute;
+	text-indent:-9999px}
+#banner h2{
+	bottom:269px;
+	right:280px;
+	background:url(../images/bg_banner-h2.png) no-repeat;
+	width:319px;
+	height:103px}
+#banner h3{
+	bottom:104px;
+	right:41px;
+	background:url(../images/bg_banner-h3.png) no-repeat;
+	width:469px;
+	height:283px}
+#banner h4{
+	bottom:39px;
+	right:193px;
+	background: url(../images/bg_banner-h4.png) no-repeat;
+	width:653px;
+	height:37px}	
+#banner p{
+	top:24px;
+	right:31px;
+	background:url(../images/bg_banner-p.png) no-repeat;
+	width:152px;
+	height:73px}
+#banner .box_share{
+	display:block;
+	position:absolute;
+	right:50px;
+	bottom:45px}	
 
 /*3.2 賽事介紹*/ 
 #about{ background:url(../images/bg_about.jpg); background-size:cover}
