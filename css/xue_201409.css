@@ -191,6 +191,50 @@ nav{
 #travel{ background:url(../images/bg_travel.jpg); background-size:cover}
 .bg_02{ background:url(../images/bg_intro-02.jpg); background-size:cover}
 #travel h2{ width:305px; background-position: 0 -69px}
+#box_travel{ display:block; position:relative}	
+#box_travel h3{
+	display:block;
+	position:absolute;
+	right:115px;
+	bottom:30px;
+	background:url(../images/pic_travelsub.png) no-repeat;
+	width:543px;
+	height:50px;
+	text-indent:-9999px}
+#travel_list{
+	display:block;
+	position:relative;
+	width:800px;
+	margin:60px auto 0 auto}		
+#travel_list ul{}
+#travel_list li a{
+	display:block;
+	float:right;
+	width:122px;
+	height:80px;
+	background:url(../images/btn_travel.png) no-repeat;
+	margin:0 14px 18px;
+	text-decoration:none;
+	text-align:right;
+	padding:70px 10px 0 0}
+#travel_list li a:hover{
+	background:url(../images/btn_travel.png) 0 -150px no-repeat;
+	text-decoration:none}
+#travel_list li a>h4, #travel_list li a>span, #travel_list li a:hover>h4, #travel_list li a:hover>span{ color:#444; text-decoration:none}
+#travel_list li a>.tel, #travel_list li a:hover>.tel{ color:#fff; text-decoration:none}
+#travel_list h4{
+	font-size:1.6em;
+	line-height:30px;
+	color:#444}
+#travel_list span{
+	font-size:1em;
+	line-height:20px}	
+#travel_list .tel{
+	display:block;
+	font-size:0.75em;
+	line-height:30px;
+	text-align:center;
+	padding-left:12px}		
 
 /*3.4 相關報導*/
 #news{ background:url(../images/bg_news.jpg); background-size:cover}
