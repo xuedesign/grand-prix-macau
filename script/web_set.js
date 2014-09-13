@@ -23,7 +23,40 @@ $(document).ready(function() {
 		  anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 		  menu: '#menu',
 		  afterLoad: function(anchorLink, index){
-          }
+          
+		  //賽事介紹
+			if(anchorLink == 'secondPage'){
+				//moving the image
+				$('#about').find('.my_about').delay(500).animate({
+					left: '0%'
+				}, 1500, 'easeOutExpo');
+			}
+		  
+		  //旅行社行程
+			if(anchorLink == '3rdPage'){
+				//moving the image
+				$('#travel').find('#travel_list').delay(500).animate({
+					left: '0%'
+				}, 1500, 'easeOutExpo');
+			}
+		  
+		  //相關報導
+			if(anchorLink == '4thpage'){
+				//moving the image
+				$('#news').find('#news_list').delay(500).animate({
+					left: '0%'
+				}, 1500, 'easeOutExpo');
+			}
+			
+		  //獨家活動
+			if(anchorLink == 'lastPage'){
+				//moving the image
+				$('#event').find('#box_event').delay(500).animate({
+					left: '0%'
+				}, 1500, 'easeOutExpo');
+			}		
+			
+		  }
 	  });
 
   });
