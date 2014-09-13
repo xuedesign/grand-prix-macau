@@ -186,8 +186,6 @@ nav{
 	line-height:25px;
 	color:#0e0e0e}
 .raceinfo a{ padding-left:10px}
-.raceinfo a:visited{}
-.raceinfo a:hover{}
 
 /*3.3 旅行社行程*/
 #travel{ background:url(../images/bg_travel.jpg); background-size:cover}
