@@ -75,7 +75,6 @@ img{border:0}
 	font-weight:bold;
 	padding-right:15px}			
 
-
 /*主選單*/
 nav{
 	display:block;
@@ -126,14 +125,6 @@ nav{
 .in_04{ background-position: -45px 0}
 .in_05{ background-position: -60px 0}
 
-/*#section1 img{
-	left: 130%;
-	position:relative}
-#section1 p{
-	visibility:hidden}
-#section2 .intro{
-	left: -130%;
-	position:relative}*/
 		
 /* 3. 單元架構
 ===============================================================================================*/
@@ -205,7 +196,7 @@ nav{
 	display:block;
 	position:relative;
 	width:800px;
-	margin:60px auto 0 auto}		
+	margin:50px auto 0 auto}		
 #travel_list ul{}
 #travel_list li a{
 	display:block;
@@ -240,6 +231,39 @@ nav{
 #news{ background:url(../images/bg_news.jpg); background-size:cover}
 .bg_03{ background:url(../images/bg_intro-03.jpg); background-size:cover}
 #news h2{ width:274px; background-position: 0 -138px}
+#news_list{
+	display:block;
+	width:802px;
+	margin:40px auto 0 auto}
+#news_list li, #news_list .longnews{
+	display:block;
+	float:right;
+	background:url(../images/bg_newitem.png) no-repeat;
+	margin: 0 18px 22px;
+	color:#444;
+	text-decoration:none}
+#news_list li{
+	width:173px;
+	height:235px;
+	padding:55px 28px 0}	
+#news_list .longnews{
+	width:173px;
+	height:248px;
+	padding:42px 28px 0}	
+#news_list h4{
+	font-size:1.125em;
+	line-height:22px;
+	text-align:center}
+#news_list h4 a{ color:#444; text-decoration:none}
+#news_list h4 a:hover{ color:#ED5401; text-decoration:none}		
+#news_list li img{
+	width:173px;
+	height:113px}	
+.bwWrapper, .longnews .bwWrapper{
+	display: inline-block;
+	position: relative}
+.bwWrapper{ margin:20px 0 0 3px}	
+.longnews .bwWrapper{ margin:12px 0 0 3px }		
 
 /*3.5 會員獨家活動*/ 
 #event{ background:url(../images/bg_event.jpg); background-size:cover}

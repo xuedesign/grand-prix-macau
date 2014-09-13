@@ -61,11 +61,22 @@ $(document).ready(function() {
 	
 //圖片輪播效果
 jQuery(function(){
-	
 	jQuery('#camera_wrap_1').camera({
 		height: '400px',
 		loader: 'bar',
 		pagination: false,
 		thumbnails: true
 	});
+});
+
+//新聞圖片效果
+$(window).load(function(){
+  $('.bwWrapper').BlackAndWhite({
+	  hoverEffect : true,
+	  invertHoverEffect: false, 
+	  speed: {
+		  fadeIn: 200,
+		  fadeOut: 800
+	  }
+  });
 });    	  
