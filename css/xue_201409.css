@@ -267,4 +267,36 @@ nav{
 
 /*3.5 會員獨家活動*/ 
 #event{ background:url(../images/bg_event.jpg); background-size:cover}
-#event h2{ width:369px; background-position: 0 -207px}			
+#event h2{ width:369px; background-position: 0 -207px}
+#box_event{
+	display:block;
+	width:710px;
+	margin:60px auto 0 auto}
+.event_01, .event_02{
+	display:block;
+	position:relative;
+	width:333px;
+	height:134px}	
+.event_01{
+	float:left;
+	background:url(../images/bg_eventinfo-01.png) no-repeat}
+.event_02{
+	float:right;
+	background:url(../images/bg_eventinfo-02.png) no-repeat}
+.gift{
+	display:block;
+	width:710px;
+	height:382px;
+	background:url(../images/bg_eventgift.jpg) no-repeat;
+	margin-top:20px}
+.event_01 p, .event_02 p, .gift p{ display:none}
+.event_01 a, .event_02 a{
+	display:block;
+	position:absolute;
+	top:55px;
+	right:16px;
+	width:64px;
+	height:66px;
+	background:url(../images/btn_go.png) no-repeat;
+	text-indent:-9999px}	
+.event_01 a:hover, .event_02 a:hover{ background-position: 0 -66px}				
