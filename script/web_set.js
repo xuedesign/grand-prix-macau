@@ -74,20 +74,8 @@ $(document).ready(function() {
 jQuery(function(){
 	jQuery('#camera_wrap_1').camera({
 		height: '400px',
-		loader: 'bar',
+		loader: '',//bar
 		pagination: false,
 		thumbnails: true
 	});
-});
-
-//新聞圖片效果
-$(window).load(function(){
-  $('.bwWrapper').BlackAndWhite({
-	  hoverEffect : true,
-	  invertHoverEffect: false, 
-	  speed: {
-		  fadeIn: 200,
-		  fadeOut: 800
-	  }
-  });
-});    	  
+});   	  
