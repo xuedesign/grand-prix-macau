@@ -143,6 +143,7 @@ nav{
 #banner h3{
 	bottom:104px;
 	right:0;
+	z-index:5;
 	background:url(../images/bg_banner-h3.png) no-repeat;
 	width:607px;
 	height:307px}
@@ -162,7 +163,15 @@ nav{
 	display:block;
 	position:absolute;
 	right:50px;
-	bottom:45px}	
+	bottom:45px}
+#banner .race_flag{
+	display:block;
+	position:absolute;
+	bottom:104px;
+	left:0;
+	width:1194px;
+	height:102px;
+	background:url(../images/raceflag.png) no-repeat}
 
 /*3.2 賽事介紹*/ 
 #about{ background:url(../images/bg_about.jpg); background-size:cover}
@@ -269,8 +278,8 @@ nav{
 	font-size:1.125em;
 	line-height:22px;
 	text-align:center}
-#news_list a>h4{ color:#444; text-decoration:none}
-#news_list a:hover>h4{ color:#ED5401; text-decoration:none}		
+#news_list a>h4{ color:#221815; text-decoration:none; text-shadow:1px 1px 0 #D7CD9F}
+#news_list a:hover>h4{ color:#A03C3A; text-decoration:none; text-shadow:1px 1px 0 #D7CD9F}		
 #news_list a>.img-01, #news_list a>.img-02, #news_list a>.img-03, #news_list a>.img-04, #news_list a>.img-05{
 	display:block;
 	width:173px;
