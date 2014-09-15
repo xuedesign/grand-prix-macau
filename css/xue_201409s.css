@@ -1,0 +1,86 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2014/09
+	Description: 目標解析度13吋筆電螢幕(1366*768px)
+ 		     		
+***********************************************************************************************/
+nav{top:0}
+.camera_wrap{
+	float:left;
+	width:500px;
+	margin:	50px auto 20px auto;
+	padding-left:80px}
+.camera_thumbs_cont > div{
+	float: left;
+	width: 50%}
+.camera_thumbs_cont ul li > img{
+	width:50px;
+	height:50px}	 	
+.raceinfo{
+	float:right;
+	width:350px;
+	margin-top:60px;
+	padding:0 30px;
+	line-height:30px}
+	
+	
+#travel_list{
+	width:930px;
+	margin:50px auto 0 auto}
+#box_travel h3{
+	left:60px;
+	bottom:60px}		
+#travel_list li a{
+	width:128px;
+	height:80px;
+	background-size:cover;
+	margin:0 10px 15px;
+	padding:65px 0 0 0}	
+#travel_list li a:hover{ 
+    background:url(../images/btn_travel.png) 0 -145px no-repeat;
+	background-size:cover}
+#travel_list h4{ padding-right:10px}
+#travel_list span{ font-size:0.813em; padding-right:10px}	
+#travel_list .tel{ font-size:0.668em}
+
+
+#news_list{ width:741px; margin:30px auto 0 auto}
+#news_list li, #news_list .longnews{
+	width:141px;
+	margin: 0 25px 15px;
+	background-size:cover}
+#news_list li{ 
+    height:205px; 
+	padding:45px 28px 0}
+#news_list .longnews{ 
+    height:212px; 
+	padding:38px 28px 0}	
+#news_list h4{
+	font-size:0.938em;
+	line-height:18px}
+#news_list a>.img-01, #news_list a>.img-02, #news_list a>.img-03, #news_list a>.img-04, #news_list a>.img-05{
+	width:146px;
+	height:95px;
+	background-size:cover;
+	margin:23px 0 0 0}
+#news_list a:hover>.img-01, #news_list a:hover>.img-02, #news_list a:hover>.img-03, #news_list a:hover>.img-04, #news_list a:hover>.img-05{
+	background-position: 0 -95px}	
+#news_list .longnews .newsimg{ margin:14px 0 0 4px}				
+		 
+
+#box_event{ 
+   width:655px;
+   margin:35px auto 0 auto}
+.event_01, .event_02{
+	width:310px;
+	height:125px;
+	background-size:cover}	
+.gift{
+	width:655px;
+	height:352px;
+	background-size:cover}
+.event_01 a, .event_02 a{
+	top:40px;
+	right:16px}	
