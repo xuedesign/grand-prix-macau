@@ -192,7 +192,7 @@ nav{
 	line-height:25px;
 	color:#0e0e0e}
 .raceinfo a{ color:#1c5ad2; padding-left:10px; text-decoration:underline}
-.raceinfo a:visited {text-decoration:none; color:#8c8c8c}
+.raceinfo a:visited {text-decoration:none; color:#1c5ad2/*#8c8c8c*/}
 .raceinfo a:hover {text-decoration:none; color:#FD0D3A}
 
 /*3.3 旅行社行程*/
@@ -331,7 +331,7 @@ nav{
 	height:66px;
 	background:url(../images/btn_go.png) no-repeat;
 	text-indent:-9999px}	
-.event_01 a:hover, .event_02 a:hover{ background-position: 0 -66px}
+.event_01 a:hover, .event_02 a:hover{ background-position: 0 0 /*0 -66px*/}
 
 /*動畫設定*/
 .my_about, #news_list, #box_event{
