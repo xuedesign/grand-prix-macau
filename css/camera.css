@@ -32,8 +32,8 @@
 	z-index: 1}
 .camera_wrap {
 	display:block;
-	width: 600px/*100%*/;
-	margin:45px auto 20px auto}
+	width: 650px/*100%*/;
+	margin:30px auto 0 auto}
 .camera_src {
 	display: none}
 .cameraCont, .cameraContents {
@@ -316,7 +316,7 @@
 .camera_thumbs_cont {
 	display:block;
 	position: relative;
-	width:600px;
+	width:650px;
 	padding:0;
 	-webkit-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
@@ -344,15 +344,16 @@
 	width: 100%;
 }
 .camera_thumbs_cont ul {
+	position: relative;
 	overflow: hidden;
 	padding: 3px 0 8px;
-	position: relative;
 	text-align: center;
 	margin:0
 }
 .camera_thumbs_cont ul li {
-	display: inline;
+	display:inline;
 	padding: 0 5px 0;
+	margin:0
 }
 .camera_thumbs_cont ul li > img {
 	border: 1px solid;
