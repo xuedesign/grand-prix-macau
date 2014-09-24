@@ -331,7 +331,8 @@ nav{
 	height:66px;
 	background:url(../images/btn_go.png) no-repeat;
 	text-indent:-9999px}	
-.event_01 a:hover, .event_02 a:hover{ background-position: 0 0 /*0 -66px*/; cursor: default}
+.event_01 a:hover{ background-position: 0 -66px}
+.event_02 a:hover{ background-position: 0 0 /*0 -66px*/; cursor: default}
 
 /*動畫設定*/
 .my_about, #news_list, #box_event{
